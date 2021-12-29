@@ -1,0 +1,1 @@
+o build && export $(grep -v '#.*' .env | xargs) && ./figma-auth
