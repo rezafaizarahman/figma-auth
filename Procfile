@@ -1,1 +1,1 @@
-web: go build && export $(grep -v '#.*' .env | xargs) && ./figma-auth
+web: build && export $(grep -v '#.*' .env | xargs) && ./figma-auth
